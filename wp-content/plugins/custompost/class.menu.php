@@ -15,7 +15,7 @@ class Menu
     }
     public function custom_post_menu_add_form()
     {
-        echo "form";
+        Form::form();
     }
     public function custom_post_menu_view()
     {
